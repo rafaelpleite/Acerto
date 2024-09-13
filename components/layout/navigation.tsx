@@ -35,7 +35,12 @@ const Navigation: React.FC = () => {
 
   return (
     <HStack spacing="2" flexShrink={0}>
-      {siteConfig.header.links.map(({ href, id, ...props }, i) => {
+      // navigation.tsx
+
+      {siteConfig.header.links.map((link, i) => {
+        const { id, label, ...props } = link;
+        const href = link.href;
+
         return (
           <NavLink
             display={["none", null, "block"]}
@@ -49,10 +54,11 @@ const Navigation: React.FC = () => {
             }
             {...props}
           >
-            {props.label}
+            {label}
           </NavLink>
         );
       })}
+
 
       <ThemeToggle />
 
