@@ -2845,6 +2845,11 @@
     solid-element "1.7.1"
     solid-js "1.7.8"
 
+"@typebot.io/nextjs@^0.3.14":
+  version "0.3.14"
+  resolved "https://registry.yarnpkg.com/@typebot.io/nextjs/-/nextjs-0.3.14.tgz#6e7e573c7922002d110f0ba0e4834a11b54736b0"
+  integrity sha512-gXo+MGpaSzx/gvBXgfyFjMGkEGn1OYwQWzgfkcxZOdhDNclrzQlg9FSYZntCP0obxAzSzd+kfHP2/jaP9x3Kxw==
+
 "@typebot.io/react@^0.3.14":
   version "0.3.14"
   resolved "https://registry.yarnpkg.com/@typebot.io/react/-/react-0.3.14.tgz#7fcff3a08b2de2634953ef565837a84f5bbe0539"
@@ -2891,27 +2896,13 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*":
+"@types/react@*", "@types/react@18.3.5":
   version "18.3.5"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.5.tgz#5f524c2ad2089c0ff372bbdabc77ca2c4dbadf8f"
   integrity sha512-WeqMfGJLGuLCqHGYRGHxnKrXcTitc6L/nBUWfWPcTarG3t9PsquqUMuVeXZeca+mglY4Vo5GZjCi0A3Or2lnxA==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
-
-"@types/react@18.2.0":
-  version "18.2.0"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.0.tgz#15cda145354accfc09a18d2f2305f9fc099ada21"
-  integrity sha512-0FLj93y5USLHdnhIhABk83rm8XEGA7kH3cr+YUlvxoUGp1xNt/DINUMvqPxLyOQMzLmZe8i4RTHbvb8MC7NmrA==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/scheduler@*":
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.23.0.tgz#0a6655b3e2708eaabca00b7372fafd7a792a7b09"
-  integrity sha512-YIoDCTH3Af6XM5VuwGG/QL/CJqga1Zm3NkU3HZ4ZHK2fRMPYP1VczsTUqtsf43PH/iJNVlPHAo2oWX7BSdB2Hw==
 
 "@typescript-eslint/parser@^5.42.0":
   version "5.62.0"
