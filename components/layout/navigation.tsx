@@ -35,8 +35,6 @@ const Navigation: React.FC = () => {
 
   return (
     <HStack spacing="2" flexShrink={0}>
-      // navigation.tsx
-
       {siteConfig.header.links.map((link, i) => {
         const { id, label, ...props } = link;
         const href = link.href;
