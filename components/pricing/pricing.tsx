@@ -11,10 +11,17 @@ interface PricingProps {
   [key: string]: any;
 }
 
+// Define the props for the Standard component
+interface StandardProps {
+  typebot: string;
+  style?: React.CSSProperties;
+}
+
 export const Pricing: React.FC<PricingProps> = (props) => {
   const { children, plans, title, description, ...rest } = props;
 
-  const Standard = dynamic(
+  // Specify the type of the dynamically imported component
+  const Standard = dynamic<React.FC<StandardProps>>(
     () => import('@typebot.io/react').then((mod) => mod.Standard),
     { ssr: false }
   );
