@@ -8,8 +8,8 @@ import { Logo } from './logo'
 const siteConfig = {
   logo: Logo,
   seo: {
-    title: 'Saas UI',
-    description: 'The React component library for startups',
+    title: 'Acerto',
+    description: 'Acompanhe suas dívidas e acerte suas contas',
   } as NextSeoProps,
   termsUrl: '#',
   privacyUrl: '#',
@@ -33,21 +33,17 @@ const siteConfig = {
   footer: {
     copyright: (
       <>
-        Built by{' '}
-        <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
+        Feito por {' '}
+        <Link href="https://github.com/rafaelpleite">Rafael Prudêncio Leite</Link> para o case de cientista de dados.
       </>
     ),
     links: [
       {
-        href: 'mailto:hello@saas-ui.dev',
-        label: 'Contact',
+        href: 'mailto:rafael.lprudencio1@gmail.com',
+        label: 'Contato',
       },
       {
-        href: 'https://twitter.com/saas_js',
-        label: <FaTwitter size="14" />,
-      },
-      {
-        href: 'https://github.com/saas-js/saas-ui',
+        href: 'https://github.com/rafaelpleite',
         label: <FaGithub size="14" />,
       },
     ],
