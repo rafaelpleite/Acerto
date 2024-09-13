@@ -375,7 +375,7 @@ export async function getStaticProps() {
   return {
     props: {
       announcement: {
-        title: "Esse não é um site oficial da acerto. ❌",
+        title: "Este não é um site oficial da acerto. ❌",
         description:
           '<img src="" />',
         href: "https://acerto.com.br",
