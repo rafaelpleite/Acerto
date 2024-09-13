@@ -16,24 +16,16 @@ const siteConfig = {
   header: {
     links: [
       {
+        id: 'home',
+        label: 'Início',
+      },
+      {
         id: 'features',
-        label: 'Features',
+        label: 'Benefícios',
       },
       {
         id: 'pricing',
-        label: 'Pricing',
-      },
-      {
-        id: 'faq',
-        label: 'FAQ',
-      },
-      {
-        label: 'Login',
-        href: '/login',
-      },
-      {
-        label: 'Sign Up',
-        href: '/signup',
+        label: 'Ver dívidas',
         variant: 'primary',
       },
     ],

@@ -1,40 +1,34 @@
 export default {
-  title: 'Loved by tech people',
+  title: 'O que dizem os nossos clientes',
   items: [
     {
-      name: 'Eelco Wiersma',
-      description: 'Founder Saas UI',
+      name: 'Maria Clara L.',
+      description: 'Recuperação Financeira Acessível',
       avatar:
         'https://pbs.twimg.com/profile_images/1470742164024008706/k-eXHtu0_normal.jpg',
       children: (
         <>
-          “With SaaS UI I am able to produce high quality dashboard apps and
-          internal tools without a lot of design skills. The ROI really is
-          amazing.”
+          “Renegociar minha dívida pela Acerto foi uma experiência transformadora. Consegui descontos incríveis que realmente aliviaram meu orçamento. Altamente recomendável para quem busca uma saída honrosa das dívidas!”
         </>
       ),
     },
     {
-      name: 'Caroline Yahaya',
-      description: 'Fullstack Developer',
+      name: 'Caroline Silva P.',
+      description: 'Atendimento Exemplar',
       avatar: '/static/images/avatar2.jpg',
       children: (
         <>
-          “Saas UI allows me to build beautiful and functional UI super fast.
-          The components are very well thought out and the Next.js starter kit
-          saved me at least 100 hours of work.”
+          “A equipe da Acerto me tratou com muito respeito e dedicação. Eles me guiaram por todo o processo, esclarecendo cada dúvida com paciência e profissionalismo. Me senti verdadeiramente apoiado em cada etapa.”
         </>
       ),
     },
     {
-      name: 'Alberto Vazquez',
-      description: 'Frontend Engineer',
+      name: 'Alberto Vazquez S.',
+      description: 'Solução Eficaz para Dívidas',
       avatar: '/static/images/avatar3.jpg',
       children: (
         <>
-          “Saas UI gave us a perfect starting point for our project, having the
-          storybooks already set up with beautifully crafted components and
-          fully mocked pages was a treat.”
+          “A Acerto mudou completamente a minha perspectiva sobre gerenciamento de dívidas. Com a renegociação, consegui condições que se adequavam à minha realidade financeira, e agora estou no caminho para uma vida sem dívidas. Agradeço imensamente pela ajuda e recomendo a todos que buscam uma solução real!”
         </>
       ),
     },

@@ -65,8 +65,8 @@ const Home: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="Saas UI Landingspage"
-        description="Free SaaS landingspage starter kit"
+        title="Acerto"
+        description="Acerto - Chatbot de renegociação de dívidas"
       />
       <Box>
         <HeroSection />
@@ -97,15 +97,15 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+                Libere-se das Dívidas 
+                <Br /> com a Acerto!
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
-                <Br /> that doesn&apos;t get in your way and helps you <Br />{" "}
-                build intuitive SaaS products with speed.
+                Encontre soluções personalizadas para refinanciar suas dívidas e 
+                voltar a ter paz financeira.
+                <Br/>Comece hoje mesmo a reescrever sua história financeira!
               </FallInPlace>
             }
           >
@@ -152,12 +152,12 @@ const HeroSection: React.FC = () => {
             <FallInPlace delay={1}>
               <Box overflow="hidden" height="100%">
                 <Image
-                  src="/static/screenshots/list.png"
+                  src="/static/screenshots/home-hero.webp"
                   layout="fixed"
-                  width={1200}
+                  width={600}
                   height={762}
                   alt="Screenshot of a ListPage in Saas UI Pro"
-                  quality="75"
+                  quality="100"
                   priority
                 />
               </Box>
@@ -328,16 +328,12 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Not your standard
-          <Br /> dashboard template.
+          Benefícios
         </Heading>
       }
       description={
         <>
-          Saas UI Pro includes everything you need to build modern frontends.
-          <Br />
-          Use it as a template for your next product or foundation for your
-          design system.
+          Por Que Escolher a Acerto?
         </>
       }
       align="left"
@@ -345,71 +341,45 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: "Components.",
+          title: "Descontos Significativos",
           icon: FiBox,
           description:
-            "All premium components are available on a private NPM registery, no more copy pasting and always up-to-date.",
+            "Obtenha até 99% de desconto nas suas dívidas, possibilitando um alívio financeiro imediato e uma chance de recomeço.",
           variant: "inline",
         },
         {
-          title: "Starterkits.",
+          title: "Flexibilidade de Pagamento",
           icon: FiLock,
           description:
-            "Example apps in Next.JS, Electron. Including authentication, billing, example pages, everything you need to get started FAST.",
+            "Oferecemos planos de pagamento personalizados que se adaptam à sua capacidade financeira, garantindo uma solução sustentável para sua situação.",
           variant: "inline",
         },
         {
-          title: "Documentation.",
+          title: "Processo Ágil e Seguro",
           icon: FiSearch,
           description:
-            "Extensively documented, including storybooks, best practices, use-cases and examples.",
+            "Todo o processo de renegociação é feito online, com segurança de dados avançada, permitindo rapidez e proteção em cada passo.",
           variant: "inline",
         },
         {
-          title: "Onboarding.",
+          title: "Parcerias de Confiança",
           icon: FiUserPlus,
           description:
-            "Add user onboarding flows, like tours, hints and inline documentation without breaking a sweat.",
+            "Colaboramos com renomadas instituições financeiras para assegurar as melhores condições de renegociação para você.",
           variant: "inline",
         },
         {
-          title: "Feature flags.",
+          title: "Suporte Dedicado",
           icon: FiFlag,
           description:
-            "Implement feature toggles for your billing plans with easy to use hooks. Connect Flagsmith, or other remote config services once you're ready.",
+            "Nossa equipe está sempre pronta para ajudar, esclarecendo dúvidas e acompanhando você durante todo o processo de renegociação.",
           variant: "inline",
         },
+
         {
-          title: "Upselling.",
-          icon: FiTrendingUp,
-          description:
-            "Components and hooks for upgrade flows designed to make upgrading inside your app frictionless.",
-          variant: "inline",
-        },
-        {
-          title: "Themes.",
-          icon: FiToggleLeft,
-          description:
-            "Includes multiple themes with darkmode support, always have the perfect starting point for your next project.",
-          variant: "inline",
-        },
-        {
-          title: "Generators.",
-          icon: FiTerminal,
-          description:
-            "Extend your design system while maintaininig code quality and consistency with built-in generators.",
-          variant: "inline",
-        },
-        {
-          title: "Monorepo.",
+          title: "Segurança Avançada",
           icon: FiCode,
-          description: (
-            <>
-              All code is available as packages in a high-performance{" "}
-              <Link href="https://turborepo.com">Turborepo</Link>, you have full
-              control to modify and adjust it to your workflow.
-            </>
-          ),
+          description: "Utilizamos tecnologia de ponta para proteger todos os seus dados pessoais e financeiros durante o processo de renegociação.",
           variant: "inline",
         },
       ]}
